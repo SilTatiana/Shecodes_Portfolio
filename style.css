@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #f8bdb0;
+  --secondary-color: #021f59;
+  --shadow-box: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3,
+a,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3,
+.about-secondary-header {
+  color: #7e7c7c;
+}
+
+.contact-header {
+  margin-top: 50px;
+}
+
+.grid_container {
+  margin: 40px 40px;
+  display: flex;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+  background-color: var(--primary-color);
+  color: #7e7c7c;
+}
+
+.common_h {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+}
+
+.common_p {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.common-link {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-weight: bolder;
+  text-align: center;
+  box-shadow: var(--shadow-box);
+  border: 1px solid var(--secondary-color);
+  background-color: #5464bf;
+  color: #ffffff;
+}
+.common-link:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.about-secondary-header {
+  font-size: 22px;
+}
+
+.paragraph-about {
+  display: inline-flex;
+  margin: 40px 0;
+}
+
+.paragraph-about p {
+  margin: 20px;
+  padding: 20px;
+  background-color: snow;
+}
+
+.navigation {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.navigation a {
+  margin: 2%;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 4px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.about-me {
+  box-shadow: var(--shadow-box);
+  border: 1px solid var(--secondary-color);
+  background-color: #5464bf;
+  color: #ffffff;
+}
+
+.about-me:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.contact-email {
+  background-color: var(--primary-color);
+  color: #eb6262;
+  padding: 25px 25px;
+}
+
+.contact-email:active {
+  font-size: 18px;
+}
+
+.homepage {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.email-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  .grid_container img {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .common-link {
+    display: block;
+    text-align: center;
+  }
+}
